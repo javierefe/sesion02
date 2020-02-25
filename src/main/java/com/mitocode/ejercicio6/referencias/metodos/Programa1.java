@@ -23,7 +23,7 @@ public class Programa1 {
 		op2.imprimir();
 		
 		
-		//simplificado de lo de arriba
+		//simplificado de lo de arriba, requisito es que el metodo estatico no tenga parametros
 		IOperacion op3 = Programa1::referenciaMetodoStatic;
 		op3.imprimir();
 		
